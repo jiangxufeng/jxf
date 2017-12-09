@@ -1,4 +1,4 @@
-font-face {
+@font-face {
     font-family: myFont;
     src: url('../font/pingFang.ttf');
 }
@@ -249,7 +249,7 @@ h2{
 }
 #sign-up span hr{
     width: 254px;
-    left: px;
+    left: 24px;
     position: relative;
     top: -20px;
 }
