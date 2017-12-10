@@ -234,7 +234,7 @@ function photo(){
         //}
         randomArr.push(random);
         console.log(randomArr);
-        m[i].style.backgroundImage = 'url("http://127.0.0.1:8000/static/img/JPEG/'+random+'.jpg")';
+        m[i].style.backgroundImage = 'url("http://106.14.156.177/static/img/JPEG/'+random+'.jpg")';
     }
     var handler1 = function(){
         m[2].style.left = "3.3rem";
@@ -249,9 +249,9 @@ function photo(){
         var first = document.createElement("div");
         var contain = document.getElementById("photo");
         first.setAttribute("id","a0");
-        first.innerHTML = '<span></span> <p>昵称昵称</p> <span> <img src="http://127.0.0.1:8000/static/img/icon_praise.png" alt=""/>133 <img src="http://127.0.0.1:8000/static/img/icon_comment.png" alt=""/>133 </span>';
+        first.innerHTML = '<span></span> <p>昵称昵称</p> <span> <img src="http://106.14.156.177/static/img/icon_praise.png" alt=""/>133 <img src="http://106.14.156.177/static/img/icon_comment.png" alt=""/>133 </span>';
         random = Math.ceil(Math.random()*7%7);
-        first.style.backgroundImage = 'url("http://127.0.0.1:8000/static/img/JPEG/'+random+'.jpg")';
+        first.style.backgroundImage = 'url("http://106.14.156.177/static/img/JPEG/'+random+'.jpg")';
         contain.insertBefore(first,m[0]);
         m[7].parentNode.removeChild(m[7]);
         for(var i=0;i<7;i++){
@@ -276,9 +276,9 @@ function photo(){
         var last = document.createElement("div");
         var contain = document.getElementById("photo");
         last.setAttribute("id","a8");
-        last.innerHTML = '<span></span> <p>昵称昵称</p> <span> <img src="http://127.0.0.1:8000/static/img/icon_praise.png" alt=""/>133 <img src="http://127.0.0.1:8000/static/img/icon_comment.png" alt=""/>133 </span>';
+        last.innerHTML = '<span></span> <p>昵称昵称</p> <span> <img src="http://106.14.156.177/static/img/icon_praise.png" alt=""/>133 <img src="http://106.14.156.177/static/img/icon_comment.png" alt=""/>133 </span>';
         random = Math.ceil(Math.random()*7%7);
-        last.style.backgroundImage = 'url("http://127.0.0.1:8000/static/img/JPEG/'+random+'.jpg")';
+        last.style.backgroundImage = 'url("http://106.14.156.177/static/img/JPEG/'+random+'.jpg")';
         contain.appendChild(last);
         m[0].parentNode.removeChild(m[0]);
         for(var i=0;i<7;i++){
@@ -412,7 +412,7 @@ function story(userArr){
         var first = document.createElement("div");
         var contain = document.getElementById("story");
         first.setAttribute("id","a0");
-        first.innerHTML = '<span></span><p>鸡汤</p><p>那天晚上放晚自习回家，老爸让老妈进去看电视，说要跟我单独谈谈，桌子上放了一晚热热的鸡汤，他说：我这个病（肺癌）不管治不治得好，你以后都要好好跟妈妈生活，不要让她担心，多帮她做点事，我埋着头喝鸡汤，眼泪往汤里面一直流，到现在都还记得那碗汤越喝越咸。不知道现在老爸在天堂还好不~</p><button>More</button><span><img src="http://127.0.0.1:8000/static/img/icon_praise.png" alt=""/>133 <img src="http://127.0.0.1:8000/static/img/icon_comment.png" alt=""/>133 </span>';
+        first.innerHTML = '<span></span><p>鸡汤</p><p>那天晚上放晚自习回家，老爸让老妈进去看电视，说要跟我单独谈谈，桌子上放了一晚热热的鸡汤，他说：我这个病（肺癌）不管治不治得好，你以后都要好好跟妈妈生活，不要让她担心，多帮她做点事，我埋着头喝鸡汤，眼泪往汤里面一直流，到现在都还记得那碗汤越喝越咸。不知道现在老爸在天堂还好不~</p><button>More</button><span><img src="http://106.14.156.177/static/img/icon_praise.png" alt=""/>133 <img src="http://106.14.156.177/static/img/icon_comment.png" alt=""/>133 </span>';
         var first_button = first.getElementsByTagName("button");
         // first_button[0].setAttribute("blogId",blog.allBlog[count].id);
         count++;
@@ -473,7 +473,7 @@ function story(userArr){
         var last = document.createElement("div");
         var contain = document.getElementById("story");
         last.setAttribute("id","a8");
-        last.innerHTML = '<span></span><p>鸡汤</p><p>那天晚上放晚自习回家，老爸让老妈进去看电视，说要跟我单独谈谈，桌子上放了一晚热热的鸡汤，他说：我这个病（肺癌）不管治不治得好，你以后都要好好跟妈妈生活，不要让她担心，多帮她做点事，我埋着头喝鸡汤，眼泪往汤里面一直流，到现在都还记得那碗汤越喝越咸。不知道现在老爸在天堂还好不~</p><button>More</button><span><img src="http://127.0.0.1:8000/static/img/icon_praise.png" alt=""/>133 <img src="http://127.0.0.1:8000/static/img/icon_comment.png" alt=""/>133 </span>';
+        last.innerHTML = '<span></span><p>鸡汤</p><p>那天晚上放晚自习回家，老爸让老妈进去看电视，说要跟我单独谈谈，桌子上放了一晚热热的鸡汤，他说：我这个病（肺癌）不管治不治得好，你以后都要好好跟妈妈生活，不要让她担心，多帮她做点事，我埋着头喝鸡汤，眼泪往汤里面一直流，到现在都还记得那碗汤越喝越咸。不知道现在老爸在天堂还好不~</p><button>More</button><span><img src="http://106.14.156.177/static/img/icon_praise.png" alt=""/>133 <img src="http://106.14.156.177/static/img/icon_comment.png" alt=""/>133 </span>';
         var last_button = last.getElementsByTagName("button");
         // last_button[0].setAttribute("blog",blog.allBlog[count].id);
         count++;
